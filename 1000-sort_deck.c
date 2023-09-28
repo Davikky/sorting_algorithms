@@ -18,7 +18,7 @@ int _strcmp(const char *str1, char *str2)
 			return (0);
 		i++;
 	}
-	if (str1[i] == NULL && str2[i])
+	if (str1[i] == '\0' && str2[i])
 		return (0);
 	return (1);
 }
